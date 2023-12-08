@@ -1,17 +1,45 @@
-# meteor_mate
+# Meteor Mate
 
-A new Flutter project.
+## A Meteor Make is Weather App Built with Flutter and OpenMeteo API
+
+### [OpenMeteo API](https://open-meteo.com/en/docs)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### 1. Clone the repo
 
-A few resources to get you started if this is your first Flutter project:
+```sh
+$ git clone https://github.com/CaMiMtoto/meteor-mate.git
+$ cd meteor-mate
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2. Install dependencies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# meteor-mate
+```sh
+$ flutter pub get
+```
+
+### 3. Replace API Key
+
+```sh
+$ cd lib > services > weather.dart
+```
+
+Replace the API Key with your own API Key from [OpenMeteo API](https://open-meteo.com/en/docs)
+
+### 4. Run the app
+
+```sh
+$ flutter run
+```
+
+## Screenshots
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* [OpenMeteo API](https://open-meteo.com/en/docs)
+* [Flutter](https://flutter.dev/)
