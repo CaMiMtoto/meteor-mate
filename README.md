@@ -9,20 +9,20 @@
 ### 1. Clone the repo
 
 ```sh
-$ git clone https://github.com/CaMiMtoto/meteor-mate.git
-$ cd meteor-mate
+    git clone https://github.com/CaMiMtoto/meteor-mate.git
+    cd meteor-mate
 ```
 
 ### 2. Install dependencies
 
 ```sh
-$ flutter pub get
+    flutter pub get
 ```
 
 ### 3. Replace API Key
 
 ```sh
-$ cd lib > services > weather.dart
+    cd lib > services > weather.dart
 ```
 
 Replace the API Key with your own API Key from [OpenMeteo API](https://open-meteo.com/en/docs)
@@ -30,7 +30,7 @@ Replace the API Key with your own API Key from [OpenMeteo API](https://open-mete
 ### 4. Run the app
 
 ```sh
-$ flutter run
+    flutter run
 ```
 
 ## Screenshots
