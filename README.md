@@ -19,13 +19,13 @@ cd meteor-mate
 flutter pub get
 ```
 
-### 3. Replace API Key
+### 3. Create a  `.env` file in the root directory of the project
 
 ```sh
-cd lib > services > weather.dart
+touch .env
 ```
 
-Replace the API Key with your own API Key from [OpenMeteo API](https://open-meteo.com/en/docs)
+Add `API_KEY=yourApiKey` to the `.env` file from [OpenMeteo API](https://open-meteo.com/en/docs)
 
 ### 4. Run the app
 
